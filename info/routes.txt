@@ -1,0 +1,36 @@
+﻿route_id,route_short_name,agency_id,route_long_name,route_desc,route_type,route_url,route_color,route_text_color
+1,1,90023,Del Amo Blvd,,3,https://ridelbt.com/routes-1/,D62028,FFFFFF
+101,101,90023,Carson St,,3,https://ridelbt.com/routes-2/,D62028,FFFFFF
+103,103,90023,Lakewood Mall,,3,https://ridelbt.com/routes-8/,D62028,FFFFFF
+104,104,90023,Spring Via Airport,,3,https://ridelbt.com/routes-21-22-23/,D62028,FFFFFF
+111,111,90023,Broadway / Lakewood,,3,https://ridelbt.com/routes-21-22-23/,D62028,FFFFFF
+112,112,90023,Broadway / Clark,,3,https://ridelbt.com/routes-21-22-23/,D62028,FFFFFF
+121,121,90023,Ocean Blvd - CSULB - Outer Circle,,3,https://ridelbt.com/passport/,D62028,FFFFFF
+131,131,90023,Redondo Ave,,3,https://ridelbt.com/routes-41-46/,D62028,FFFFFF
+141,141,90023,Artesia Blvd,,3,https://ridelbt.com/routes-41-46/,D62028,FFFFFF
+151,151,90023,4th Street,,3,https://ridelbt.com/route-51/,D62028,FFFFFF
+171,171,90023,PCH / Seal Beach,,3,https://ridelbt.com/route-61/,D62028,FFFFFF
+172,172,90023,PCH / Palo Verde,,3,https://ridelbt.com/route-71/,D62028,FFFFFF
+173,173,90023,PCH / Studebaker,,3,https://ridelbt.com/routes-91-92-93-94/,D62028,FFFFFF
+174,174,90023,PCH / Ximeno,,3,https://ridelbt.com/routes-91-92-93-94/,D62028,FFFFFF
+175,175,90023,PCH / CSULB,,3,https://ridelbt.com/routes-91-92-93-94/,D62028,FFFFFF
+181,181,90023,Magnolia Ave,,3,https://ridelbt.com/routes-91-92-93-94/,D62028,FFFFFF
+182,182,90023,Pacific Ave,,3,https://ridelbt.com/routes-101-103/,D62028,FFFFFF
+191,191,90023,Santa Fe Ave / Del Amo Blvd,,3,https://ridelbt.com/routes-102-104/,D62028,FFFFFF
+192,192,90023,Santa Fe Ave / South St,,3,https://ridelbt.com/routes-101-103/,D62028,FFFFFF
+2,2,90023,Carson - CSUDH,,3,https://ridelbt.com/routes-102-104/,D62028,FFFFFF
+21,21,90023,Cherry Ave,,3,https://ridelbt.com/routes-111-112/,D62028,FFFFFF
+22,22,90023,Cherry Ave,,3,https://ridelbt.com/routes-111-112/,D62028,FFFFFF
+37,Passport,90023,Passport,,3,https://ridelbt.com/route-131/,D62028,FFFFFF
+4,4,90023,Carson St,,3,https://ridelbt.com/route-141/,D62028,FFFFFF
+405,405,90023,UCLA Westwood Express,,3,https://ridelbt.com/route-151/,D62028,FFFFFF
+41,41,90023,Anaheim St / Easy Ave,,3,https://ridelbt.com/routes-171-175/,D62028,FFFFFF
+46,46,90023,Anaheim St,,3,https://ridelbt.com/routes-172-173-174/,D62028,FFFFFF
+51,51,90023,Long Beach Blvd,,3,https://ridelbt.com/routes-172-173-174/,D62028,FFFFFF
+61,61,90023,Atlantic Ave,,3,https://ridelbt.com/routes-172-173-174/,D62028,FFFFFF
+71,71,90023,Orange Ave,,3,https://ridelbt.com/routes-171-175/,D62028,FFFFFF
+8,8,90023,223rd St / Wardlow Rd,,3,https://ridelbt.com/routes-181/,D62028,FFFFFF
+91,91,90023,7th St to Bellflower Blvd,,3,https://ridelbt.com/routes-181/,D62028,FFFFFF
+92,92,90023,7th St to Woodruff Ave,,3,https://ridelbt.com/routes-191-192/,D62028,FFFFFF
+93,93,90023,7th St to Clark Ave,,3,https://ridelbt.com/routes-191-192/,D62028,FFFFFF
+94,94,90023,7th St to Bellflower at Stearns,,3,https://ridelbt.com/route-405/,D62028,FFFFFF
