@@ -1,5 +1,10 @@
 import { fetchVehiclePositions } from "./vehiclePosition";
-import { fetchTripUpdates, getNextArrivalsForStop } from "./tripUpdates";
+import {
+  fetchTripUpdates,
+  getNextArrivalsForStop,
+  getNextSingleArrivalForStop,
+  Arrival,
+} from "./tripUpdates";
 
 async function main() {
   console.log("=== Fetching Long Beach Transit Realtime Data ===\n");
@@ -21,6 +26,9 @@ async function main() {
     console.log(`Next arrivals at 7th & Atlantic`);
     arrivals.forEach((a) => console.log(a));
   }
+
+  let arrival = await getNextSingleArrivalForStop("0808");
+  console.log(`Next arrival at 7th & Atlantic: ${arrival.routeId}`);
 }
 
 main().catch((err) => {
