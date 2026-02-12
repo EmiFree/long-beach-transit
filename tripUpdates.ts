@@ -92,21 +92,19 @@ export async function getNextSingleArrivalForStop(targetStopId: string) {
     const resp = await fetch(url);
     if (!resp.ok) throw new Error(`HTTP ${resp.status}`);
     const bytes = new Uint8Array(await resp.arrayBuffer());
-    // TODO: ITS NOT WORKING RIGHT because im not sorting thru all the trip updates, just grabbing the first for these first value to show up, FIX L8R
     const root = await load("./gtfs-realtime.proto");
     const FeedMessage = root.lookupType("transit_realtime.FeedMessage");
-    const message = FeedMessage.decode(bytes) as any;
+    const message = FeedMessage.decode(bytes) as any; // Decode the message bytes we recieved using protobuf
+
+    // instantiate an arrival object and create vars for the time and delay, which we will return inside the arrival object
     let arrivalObj: Arrival = {};
-    const tripUpdate = message.entity[0].tripUpdate;
-    const routeId = tripUpdate.trip?.routeId ?? "?";
-    console.log(routeId);
     let arrivalTime = 0;
     let delaySec = 0;
 
-    // sort through all arrivals and get the one for the stop specified ONLY
-    tripUpdate.stopTimeUpdate?.forEach((stu: any) => {
-      if (stu.stopID === targetStopId) {
-        arrivalTime = stu.arrival?.time
+    // Searches through each trip update in the message, finds the one with matching stopID
+    message.entity.forEach((ent: any) => {
+      if (ent.tripUpdate.stopTimeUpdate.stopID === targetStopId) {
+        arrivalTime = stu.arrival?.time // store arrival time and delay time
           ? new Date(stu.arrival.time * 1000)
           : null;
         delaySec = stu.arrival?.delay ?? stu.departure?.delay ?? 0;

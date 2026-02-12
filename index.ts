@@ -19,7 +19,7 @@ async function main() {
     console.log(`Next arrivals at Broadway & Atlantic`);
     arrivals.forEach((a) => console.log(a));
   }
-  arrivals = await getNextArrivalsForStop("0808");
+  arrivals = await getNextArrivalsForStop("4002");
   if (arrivals.length === 0) {
     console.log(`No upcoming arrivals found for 7th & Atlantic}`);
   } else {
