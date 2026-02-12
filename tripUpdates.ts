@@ -6,7 +6,7 @@ const TRIP_UPDATES_URL =
 export interface Arrival {
   routeId: string;
   stopId: string;
-  arrivalTime: number;
+  arrivalTime: number; // Time formatted in yyyy-mm-ddThh:mm:ss.000Z" (time is in UTC)
   delay: number; // time in seconds
   vehicleID: string;
 }
