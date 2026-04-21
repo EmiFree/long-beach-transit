@@ -1,2 +1,2 @@
 # long-beach-transit
-Getting Basic Info from long beach transit in typescript
+Getting Basic Info from Long Beach Transit in typescript
